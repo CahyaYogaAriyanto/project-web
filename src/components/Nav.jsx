@@ -1,4 +1,4 @@
-import './nav.css';
+import './Nav.css';
 import { BiSolidPhoneCall } from "react-icons/bi";
 import { TbCalendarTime } from "react-icons/tb";
 function Nav({ title }) {
