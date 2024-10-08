@@ -27,12 +27,12 @@ p{
 @media (max-width: 750px) {
     .conten {
         flex-direction: column;
-        justify-self: center;
-        align-items: center;
-        height: auto; /* Ubah menjadi auto agar tinggi fleksibel */
-        margin: 0; /* Hapus margin untuk kontainer */
-        padding: 10px; /* Tambahkan padding untuk ruang */
-        overflow: visible; /* Pastikan konten bisa terlihat */
+        
+        max-width: 300px;
+        height: auto;  
+        margin: 0; 
+        padding: 10px; 
+        overflow: visible; 
     }
 
     .text {
@@ -45,9 +45,16 @@ p{
         padding-right: 20px; 
         box-sizing: border-box; 
     }
+    p{
+        align-items: center;
+        margin-left: 50px;
+    }
 
     .slider {
-        width: 100%; /* Pastikan slider menggunakan lebar penuh */
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        width: 100%;
     }
 }
 

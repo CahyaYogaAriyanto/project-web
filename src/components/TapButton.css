@@ -12,3 +12,10 @@
     cursor: pointer;
     transition: all 0.2s ease-in-out;
   }
+  @media (max-width: 750px) {
+    .button-t {
+        display: flex;
+        justify-self: center;
+        align-items: center;
+    }
+}
